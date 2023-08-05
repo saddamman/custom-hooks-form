@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -26,6 +22,16 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.control-group.invalid input {
+  background-color: bisque;
+  border: 1px solid red;
+}
+
+button:disabled {
+  pointer-events: none;
+  opacity: 0.4;
 }
 
 @keyframes App-logo-spin {
